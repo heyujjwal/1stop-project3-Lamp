@@ -27,6 +27,6 @@ Route::get('/', function (Request $request) {
 
     $data = json_decode($userInfoResponse);
 
-    return view('index1',['data'=>$data]);
+    return view('welcome',['data'=>$data]);
 });
 
