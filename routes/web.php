@@ -29,4 +29,3 @@ Route::get('/', function (Request $request) {
 
     return view('index1',['data'=>$data]);
 });
-
