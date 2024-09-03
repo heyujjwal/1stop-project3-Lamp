@@ -15,7 +15,7 @@
         <div class="container p-5">
             <center>
             <div class="card" style="width:600px;height:250px !important">
-                <p class='p-5'>Welcome {{$data->email}}!,your session has been created!</p>
+                <p class='p-5'>Welcome {{$data->email}}!,your session has been created </:>!</p>
             </div>
             </center>
            

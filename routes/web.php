@@ -13,7 +13,7 @@ Route::get('/', function (Request $request) {
     ])->post('https://ujjwalsnippet.auth.us-west-2.amazoncognito.com/oauth2/token',[
         'grant_type'=>'authorization_code' ,
         'code'=>$grantCode ,
-        'redirect_uri'=>'http://localhost:8000/'
+        'redirect_uri'=>'https://cognito.ujjwalsnippet.biz/'
     ]);
 
 
